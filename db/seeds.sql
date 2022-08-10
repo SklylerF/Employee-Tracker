@@ -15,3 +15,15 @@ VALUES ("Sales Lead", 40000.00),
 ("Legal Team Lead", 20000.00),
 ("Lawyer", 160000.00),
 ("Customer Service", 40000.00);
+
+INSERT INTO employees (first_name,
+last_name, role_id)
+VALUES ("skyler","ferreira"),
+("ale", "orosco"),
+("omar", "patel"),
+("max", "theman"),
+("nate", "maclevini"),
+("risa", "thehomie"),
+("carser", "mygod"),
+("britney", "spears"),
+("rhowen", "raju");
