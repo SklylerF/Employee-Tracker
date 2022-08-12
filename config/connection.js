@@ -1,6 +1,4 @@
-// imports sequilize
-const Sequelize = require('sequelize');
-require('dotenv').config();
+const mysql = require("mysql2");
 
 // create connection to daabase
 const sqlData = mysql.createConnection(
